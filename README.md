@@ -5,4 +5,4 @@
 2. used **SCSS** to organize css styles.
 
 ---
-you can watch live demo [here](https://www.example.com)
+you can watch live demo [here](https://ftm-khamse.github.io/To-Do-list/)
