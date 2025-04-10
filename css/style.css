@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "playpen";
+  src: url("../fonts/PlaypenSans-Regular.ttf") format("truetype");
+}
+:root {
+  --ff-primary:"playpen",sans-serif;
+  --primary-color:#e5e5e5;
+  --title-color:#14213D;
+  --text-color:#000000;
+  --bg-color:#FCA311;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.5rem;
+  font-size: 1rem;
+  font-family: var(--ff-primary);
+  text-align: center;
+}
+
+h1 {
+  color: var(--title-color);
+  font-size: 1.5rem;
+  margin-bottom: 1.25rem;
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7rem;
+}
+
+.container .todo {
+  background: var(--primary-color);
+  padding: 1.5rem 6rem 6rem 1.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2rem;
+  box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.container .todo__input {
+  font-family: var(--ff-primary);
+  padding: 0.875rem;
+  border: 2px dotted var(--bg-color);
+  border-radius: 2rem;
+  color: var(--text-color);
+}
+.container .todo__button {
+  font-family: var(--ff-primary);
+  background: var(--bg-color);
+  padding: 0.875rem;
+  border: 2px solid var(--bg-color);
+  border-radius: 0.875rem;
+}
+.container .todo__button:hover {
+  color: var(--bg-color);
+  background: var(--primary-color);
+}
+.container .todo ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+.container .todo li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: var(--bg-color);
+  margin-bottom: 10px;
+  border-radius: 2rem;
+}
+.container .todo .delete-btn {
+  background: var(--primary-color);
+  color: var(--bg-color);
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */

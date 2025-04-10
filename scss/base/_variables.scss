@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "playpen";
+    src: url("../fonts/PlaypenSans-Regular.ttf") format("truetype");
+}
+
+:root {
+
+    --ff-primary:'playpen',sans-serif;
+    --primary-color:#e5e5e5;
+    --title-color:#14213D;
+    --text-color:#000000;
+    --bg-color:#FCA311;
+}
